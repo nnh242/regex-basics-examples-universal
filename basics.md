@@ -72,4 +72,9 @@ You can later set var = ([^/]+) to manipulate it later.
 
 (?:Hello) ?: gives it non-capture group meaning
 
-### Lookarounds
+### Lookarounds: 
+Look ahead: Positive lookahead uses ?= 
+Example: cool(?=\ cat) cool looks ahead -> to the right if there is cat matches it.
+Negative lookahead uses ?!
+
+Look behind (?<=cool\ )cat sees if there is a cool behind (to the left of ) a cat
